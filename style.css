@@ -9,6 +9,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .nav-logo{
     height: 50px;
@@ -37,4 +38,37 @@
 .add-sec{
     font-size: 1rem;
     margin-left: 3px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: #0f1111;
+    border: 4px;
+    margin-left: 10px;
+}
+.nav-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    width: 50px;
+    border: none;
+    background-color: #f3f3f3;
+}
+.search{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    
+}
+.search-icon{
+    background-color: #febd68;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
 }
