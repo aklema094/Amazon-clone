@@ -121,3 +121,29 @@ span{
     font-size: 0.9rem;
     font-weight: 700;
 }
+/* body */
+.main-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  
+}
+.msg{
+    height: 40px;
+    background: white;
+    color: black;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+.msg a{
+    color: #007185;
+}
