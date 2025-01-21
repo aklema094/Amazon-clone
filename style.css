@@ -96,3 +96,28 @@ span{
     font-size: 0.8ram;
     font-weight: 600;
 }
+.panal{
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panal-ops{
+    width: 72%;
+}
+.panal-all{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.panal-ops p{
+    display: inline;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+.panal-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
