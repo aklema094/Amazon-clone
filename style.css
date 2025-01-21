@@ -124,7 +124,7 @@ span{
 /* body */
 .main-section{
     background-image: url("hero_image.jpg");
-    height: 350px;
+    height: 300px;
     background-size: cover;
     font-size: 0.85rem;
     display: flex;
@@ -141,9 +141,44 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 
 }
 .msg a{
+    color: #007185;
+}
+/* shop section */
+.shop-section{
+    background-color: #b5cbcd;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.box{
+    height: 260px;
+    width: 22%;
+    background-color: white;
+    padding: 10px 0px 15px;
+    margin-top: 15px;
+
+}
+.box-image{
+    background-size: cover;
+    height: 210px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-image{
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-conten p{
     color: #007185;
 }
